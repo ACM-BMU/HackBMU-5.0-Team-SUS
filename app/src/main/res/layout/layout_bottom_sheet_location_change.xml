@@ -108,7 +108,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="12dp"
                 android:elevation="90dp"
-                android:text="Set Locationg" />
+                android:text="Set Location" />
 
 
         </LinearLayout>

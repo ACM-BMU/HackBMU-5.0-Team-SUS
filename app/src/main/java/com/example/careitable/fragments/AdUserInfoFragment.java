@@ -284,6 +284,7 @@ public class AdUserInfoFragment extends Fragment implements LocationListener {
                     citySpinner.setSelection(cityAdapter.getPosition(cityName));
 
                 }
+                cityAdapter.notifyDataSetChanged();
             }
 
             @Override

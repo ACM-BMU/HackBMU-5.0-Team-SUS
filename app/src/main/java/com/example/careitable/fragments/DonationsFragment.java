@@ -216,7 +216,7 @@ public class DonationsFragment extends Fragment implements LocationListener {
 
                 citySpinner = dialog.findViewById(R.id.citySpinner);
 
-                stateName = stateSpinner.getSelectedItem().toString();
+                spinnerState = stateSpinner.getSelectedItem().toString();
 
                 int parentID = parent.getId();
                 if (parentID == R.id.stateSpinner) {
@@ -387,6 +387,7 @@ public class DonationsFragment extends Fragment implements LocationListener {
                     citySpinner.setSelection(cityAdapter.getPosition(cityName));
 
                 }
+                cityAdapter.notifyDataSetChanged();
             }
 
             @Override
@@ -399,7 +400,7 @@ public class DonationsFragment extends Fragment implements LocationListener {
         citySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                cityName = citySpinner.getSelectedItem().toString();
+                spinnerCity = citySpinner.getSelectedItem().toString();
             }
 
 
@@ -433,8 +434,8 @@ public class DonationsFragment extends Fragment implements LocationListener {
             if(stateName.equals("Select State") || cityName.equals("Select City")){
                 Toast.makeText(getContext(), "Please Select A City", Toast.LENGTH_SHORT).show();
             }else {
-                //cityName=spinnerCity;
-                //stateName=spinnerState;
+                cityName=spinnerCity;
+                stateName=spinnerState;
                 binding.locationTv.setText(cityName + ", " + stateName);
                 dialog.dismiss();
                 saveLocationToDevice(cityName,stateName);
