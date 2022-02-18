@@ -120,7 +120,8 @@ public class DonationsFragment extends Fragment implements LocationListener {
         }
 
         pullToRefresh.setRefreshing(true);
-        //emptyTextView.setVisibility(View.GONE);
+
+        //binding.emptyTextView.setVisibility(View.GONE);
         donationAdListPosition = new ArrayList<>();
 
 
@@ -155,8 +156,11 @@ public class DonationsFragment extends Fragment implements LocationListener {
                             recyclerView.setAdapter(recommendedListAdapter);
 
 
-                           // if (donationAdObject.isEmpty())
-                             //   emptyTextView.setVisibility(View.VISIBLE);
+                            if (donationAdObject.isEmpty()){
+                               // binding.emptyTextView.setVisibility(View.VISIBLE);
+                                //binding.adListRecyclerView.setVisibility(View.GONE);
+                            }
+
 
                             pullToRefresh.setRefreshing(false);
 
