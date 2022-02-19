@@ -40,4 +40,9 @@ range of our services to more and more people.
 
 Smart Categories pr which will give a more personalized fields to be filled by the donor
 according to the catergory. Like for Food item fields like expiry date, type. Size and Gender
-for clothes etc
+for clothes etc.
+
+## App Previews
+
+![App Screenshot](https://github.com/ACM-BMU/HackBMU-5.0-Team-SUS/blob/main/App%20Previews/Splashscreen.png)
+
