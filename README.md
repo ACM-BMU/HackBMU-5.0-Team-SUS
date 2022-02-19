@@ -1,6 +1,6 @@
-
 # CAREitable - Charities & Donations
 
+[apk file](https://drive.google.com/drive/folders/1C66eSye0P5yny3NQtWW3cGwmhYEqFIyZ?usp=sharing)
 
 CAREitable makes it super easy for you to make cash & non-cash donations from the convenience of your house. Don’t we all have a lot of clothes, books, and other household goods just lying at some corner and getting dusted. It’s time to give them a new life by donating them to those who in need and bring smiles on their faces!! Your donations will bevisible to all the local NGOs like orphanages, old age homes etc. The owner of these NGOs can directly contact you and schedule a pickup.
 
