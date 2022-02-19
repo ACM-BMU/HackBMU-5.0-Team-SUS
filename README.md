@@ -43,6 +43,5 @@ according to the catergory. Like for Food item fields like expiry date, type. Si
 for clothes etc.
 
 ## App Previews
-
-![App Screenshot](https://github.com/ACM-BMU/HackBMU-5.0-Team-SUS/blob/main/App%20Previews/Splashscreen.png)
+<img src="https://github.com/ACM-BMU/HackBMU-5.0-Team-SUS/blob/main/App%20Previews/MergedImages.png" height = "1350px" width="900px">
 
