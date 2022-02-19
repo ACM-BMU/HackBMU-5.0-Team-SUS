@@ -7,7 +7,7 @@ CAREitable makes it super easy for you to make cash & non-cash donations from th
 
 
 ## What it can do?
-People nowadays have become more and more busy in their lives that they forgot about giving back to the society. Even if they wanted to donate they couldn't as they fear that the donations would go to right hands. They also did not want to get out from their comfort zones and look for local NGS to donate to. To solve this problem, Our app can provide various solutions to these individuals. Using our app donors can post any item they want to donate with detailed images and description. Their donation listing will  be visible to thier local NGOs or any other location they want to post. The NGO owners can then contact these donors from thier listing to schedule a pickup.
+People nowadays have become more and more busy in their lives that they forgot about giving back to the society. Even if they wanted to donate they couldn't as they fear that the donations would go to right hands. They also did not want to get out from their comfort zones and look for local NGS to donate to. To solve this problem, Our app can provide various solutions to these individuals. Using our app donors can post any item they want to donate with detailed images and description. Their donation listing will  be visible to their local NGOs or any other location they want to post. The NGO owners can then contact these donors from their listing to schedule a pickup.
 ## How we built it?
 
 
